@@ -1,0 +1,22 @@
+{
+    "name": "theme-cobalt2",
+    "displayName": "Cobalt2",
+    "description": "Conversion for vscode of the cobalt2 theme, by wesbos",
+    "version": "2.0.10",
+    "publisher": "nobody",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "cobalt2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cobalt2.tmTheme"
+            }
+        ]
+    }
+}
